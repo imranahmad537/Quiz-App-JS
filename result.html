@@ -8,7 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #f8f9fa;
+            background-color: #132a42;
         }
         .result-container {
             background-color: #ffffff;
@@ -42,24 +42,25 @@
                 <div class="result-container">
                     <h2 class="text-center mb-4">Result</h2>
                     <div class="result-info">
-                        <p><strong>Name:</strong> John Doe</p>
-                        <p><strong>Roll No:</strong> 12345</p>
-                        <p><strong>Section:</strong> A</p>
-                        <p><strong>Course:</strong> JavaScript</p>
+                        <p><strong>Name:</strong> <!-- Name  --></p>
+                        <p><strong>Roll No:</strong> <!-- Roll No  --></p>
+                        <p><strong>Section:</strong> <!-- Section --></p>
+                        <p><strong>Course:</strong> <!-- Course  --></p>
                     </div>
-                    <div class="result-score">Your Score: 8/10</div>
-                    <div class="result-info">
-                        <p><strong>Correct Answers:</strong> 8</p>
-                        <p><strong>Incorrect Answers:</strong> 2</p>
+                    <div class="result-score">Your Score: <!-- Score --></div>
+                    <div >
+                        <p class="correctanswer"><strong>Correct Answers:</strong> <!-- Correct Answers  --></p>
+                        <p class="incorrectAnswers"><strong>Incorrect Answers:</strong> <!-- Incorrect Answers  --></p>
                     </div>
                     <button class="btn btn-primary btn-block btn-retake" onclick="window.location.href='quiz.html'">Retake Quiz</button>
                 </div>
             </div>
         </div>
+        <div>
+            <p style="text-align: end; margin-top: 20px;">Developed By Imran Ahmad</p>
+        </div>
+       
     </div>
     <!-- Bootstrap JS and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <script src="result.js"></script>
